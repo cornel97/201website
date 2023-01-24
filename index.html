@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class 1 Lab</title>
+
+    <style>
+      h1 {
+        font-family: monospace;
+        background-color: skyblue;
+        color: white;
+      }
+      li {
+        color: darkgrey;
+      }
+      body {
+        border: groove 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <h1>Class 1 Lab</h1>
+      <p style="color: red; background-color: yellow">What's your name?</p>
+      <p style="color: blue; background-color: brown">How old are you?</p>
+      <p style="color: purple; background-color: orange">Where do you live?</p>
+      <p style="color: darkgreen; background-color: coral">Do you have pets?</p>
+    </main>
+
+    <script>
+      let user = prompt("What's your name?");
+      console.log("The user's name is " + user);
+
+      alert("Hi there, " + user);
+
+      let age = prompt("How old are you?");
+      console.log("Your age is " + age);
+
+      alert("Your age is " + age);
+
+      let live = prompt("Where do you live?");
+      console.log("The user lives in " + live);
+
+      alert("Hello again, " + user + ". I see that you live in " + live);
+
+      let pets = prompt("Do you have pets?");
+      console.log("Do you have pets? " + pets);
+      if (pets == "yes") {
+        alert("Amazing! It's nice to have pets.");
+      } else if (pets == "no") {
+        alert("You should consider getting a pet.");
+      }
+    </script>
+  </body>
+</html>
